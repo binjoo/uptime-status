@@ -1,7 +1,7 @@
 <template>
   <el-row :gutter="20" class="footer">
     <el-col :span="12">
-      <el-text>© {{ year }} <a href="https://github.com/binjoo/uptime_status" target="_blank">UptimeStatus</a></el-text>
+      <el-text>© {{ year }} <a href="https://github.com/binjoo/uptime-status" target="_blank">UptimeStatus</a></el-text>
       <el-divider direction="vertical" />
       <el-text>基于 <a href="https://uptimerobot.com/api" target="_blank">UptimeRobot API</a> 开发</el-text>
     </el-col>

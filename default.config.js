@@ -23,7 +23,7 @@ export default {
     },
     {
       title: 'Github',
-      url: 'https://github.com/binjoo/uptime_status'
+      url: 'https://github.com/binjoo/uptime-status'
     }
   ],
   /**
