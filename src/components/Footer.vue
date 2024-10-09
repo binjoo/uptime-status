@@ -1,11 +1,11 @@
 <template>
   <el-row :gutter="20" class="footer">
-    <el-col :span="12">
+    <el-col :span="12" :xs="24">
       <el-text>© {{ year }} <a href="https://github.com/binjoo/uptime-status" target="_blank">UptimeStatus</a></el-text>
       <el-divider direction="vertical" />
       <el-text>基于 <a href="https://uptimerobot.com/api" target="_blank">UptimeRobot API</a> 开发</el-text>
     </el-col>
-    <el-col :span="12" class="ta-r">
+    <el-col :span="12" :xs="24" class="ta-r">
       <el-text>
         <el-countdown :format="'上次更新时间 ' + last + '，将于 mm:ss 后刷新'" :value="next"
           :valueStyle="{ fontSize: '14px', color: 'var(--el-color-info)' }" @finish="requestNext" />

@@ -217,6 +217,10 @@ watch(
   justify-content: space-between;
   gap: 2px;
 
+  @media screen and (max-width: 768px) {
+    gap: 1px;
+  }
+
   .text {
     font-size: 1.4em;
   }
