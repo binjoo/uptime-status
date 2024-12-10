@@ -115,8 +115,8 @@ export async function apiGetMonitors (config) {
       }
       return total;
     }, { times: 0, duration: 0 });
-
-    monitor.response_times.map((item) => {
+    
+    monitor.response_times?.map((item) => {
       response.unshift({
         time: dayjs.unix(item.datetime).format('MM-DD HH:mm'),
         value: item.value,
